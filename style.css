@@ -137,6 +137,7 @@ main{
 .card-image{
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 
@@ -147,7 +148,10 @@ main{
     align-items: center;
     columns: 5 220px;
     column-gap: 10px;
-    
+}
+
+button{
+    display: none;
 }
 
 .grid_item{
@@ -163,5 +167,11 @@ filter: brightness(50%) */
 
 .card-image:hover{
     filter: brightness(50%)
-    
+
+}
+
+.card-image:hover > .upload{
+    position: absolute;
+    bottom: 50px;
+    display: block;
 }
