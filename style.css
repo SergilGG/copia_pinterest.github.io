@@ -235,6 +235,13 @@ button{
     background-color: #fcfc69;
 }
 
+#pinterest-icon:hover{
+    filter: brightness(60%)
+}
+
+#options{
+    border-radius: 90%;
+}
 
 @media (max-width: 900px) {
 
